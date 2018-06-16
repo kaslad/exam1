@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500|Poppins:300,400&subset=cyrillic,cyrillic-ext,devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Roboto Condensed", "Cormorant Garamond", Times, serif, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+}
+
+h1, h1 > span {
+    text-align: center;
+    color: #2c465a;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.b-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.b-login * {
+    text-align: center;
+    color: #4b3f6c;
+}
+
+.orange {
+    color: #fea100;
+}
+
+.b-login-form {
+    display: block;
+    width: 25%;
+    height: auto;
+    /*background-color: #2c465a;*/
+    /*border-radius: 25px;*/
+    box-shadow: 0 4px 5px 2px #4b3f6c;
+    border: 1px solid #2c465a;
+}
+
+.login-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.inp-gr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form input {
+    display: block;
+    width: 80%;
+    min-height: 30px;
+    height: 3.5vw;
+    margin: 5px auto;
+    border: 1px solid #4b3f6c;
+    padding: 5px;
+}
+
+.login-form .inp-gr {
+    width: 80%;
+    margin: 5px auto;
+}
+
+/*.login-form .inp-gr > label {*/
+/*width: 80%;*/
+/*}*/
+
+.checkbox, #remember_me {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.checkbox {
+    width: 60%;
+}
+
+#remember_me {
+    width: 20%;
+    height: auto;
+    margin: 0;
+}
+
+input.sub-btn {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 1.25rem;
+    background-color: #4b3f6c;
+    color: #ffffff;
+    margin: 15px auto;
+    height: 40px;
+}
+
+input.sub-btn:hover {
+    background-color: #fea100;
+}
+
+h5 {
+    padding: 10px 0;
+}
+
+h5 > a:hover {
+    color: #fea100;
+}
+
+@media screen and (min-device-width: 1440px) and (min-width: 1440px) {
+    .b-login-form {
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-device-width: 1024px) and (max-width: 1024px) {
+    .b-login-form {
+        width: 35%;
+    }
+}
+
+@media screen and (max-device-width: 768px) and (max-width: 768px) {
+    .b-login-form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-device-width: 500px) and (max-width: 500px) {
+    .b-login-form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-device-width: 425px) and (max-width: 425px) {
+    .b-login-form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 375px) and (max-width: 375px) {
+    .b-login-form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-device-width: 320px) and (max-width: 320px) {
+    .b-login-form {
+        width: 90%;
+    }
+}
+
+.hide {
+    display: none;
+}

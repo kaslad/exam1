@@ -1,0 +1,8 @@
+.navbar{
+    height: 50px;
+    font-size: 13px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: border-box;
+}
+
